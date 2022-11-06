@@ -11,7 +11,7 @@ module.exports = {
     },
     mumbai: {
       url: process.env.ALCHEMY_API_KEY_URL,
-      accounts: ["0x" + process.env.GOERLI_PRIVATE_KEY]
+      accounts: ["0x" + process.env.MUMBAI_PRIVATE_KEY]
     }
   },
 
